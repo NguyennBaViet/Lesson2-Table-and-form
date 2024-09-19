@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6</title>
+</head>
+<body>
+    <table border="5" cellpadding="10px" cellspacing="2" style="border-color:rgba(83, 122, 231, 0.956)">
+        <td>
+            <h2>Đăng ký thông tin người sử dụng</h2>
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="user"><b>Tên đăng nhập</b></label>
+            <input type="text" name="user" id="user">
+            <br>
+            <label for="password"><b>Mật khẩu</b></label>
+            <input type="password" name="password" id="password">
+            <br>
+            <label for="password"><b>Nhập lại mật khẩu</b></label>
+            <input type="password" name="confirm_password" id="confirm_password">
+            <br>
+            <label for="Email"><b>Email</b></label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="Gioitinh"><b>Giới tính</b> </label>
+            <input type="radio" name="Gioitinh" id="nam" checked><label for="nam">Nam</label>
+            <input type="radio" name="Gioitinh" id="nu"><label for="nu">Nữ</label>
+            <br>
+            <label for="Độ tuổi"><b>Độ tuổi:</b> </label>
+            <input type="radio" name="Dotuoi" id="13tuoi" checked><label for="13tuoi">13 tuổi</label>
+            <input type="radio" name="Dotuoi" id="13den17tuoi"><label for="13den17tuoi">13 đến 178den28tuổi</label>
+            <input type="radio" name="Dotuoi" id="18den28tuoi"><label for="18den28tuoi">18 đến 28 tuổi</label>
+            <input type="radio" name="Dotuoi" id="Tren25tuoi"><label for="Tren25tuoi">Trên 25 tuổi</label>
+            <br>
+            <label for="Sothich"><b>Sở thích của bạn:</b> </label>
+            <input type="checkbox" name="Sothich" id="Amnhac">Âm nhạc<label for="Amnhac"></label>
+            <input type="checkbox" name="Sothich" id="Game">Game<label for="Game"></label>
+            <input type="checkbox" name="Sothich" id="Thethao">Thể thao<label for="Thethao"></label>
+            <input type="checkbox" name="Sothich" id="Dulich">Du lịch<label for="Dulich"></label>
+            <br>
+            <label for="Nghenghiep"><b>Nghề nghiệp:</b> </label>
+            <select name="Nghenghiep" id="Nghenghiep">
+                <option value="">---Chọn nghề nghiệp---</option>
+                <option value="">Làm nông</option>
+                <option value="">Sale</option>
+                <option value="">Giáo viên</option>
+            </select>
+            <br>
+            <label for="Motabanthan"><b>Mô tả bản thân</b></label>
+            <textarea name="Motabanthan" id="Motabanthan" placeholder="Mô tả về bản thân bạn ..."></textarea>
+            <br>
+            <input type="submit" name="submit" id="submit" value="Đăng ký">
+            <input type="reset" name="reset" id="reset" value="Làm lại">  
+        </form>
+        </td>
+    </table>
+</body>
+</html>

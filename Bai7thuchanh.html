@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 7</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"], select {
+            width: 20%;
+            padding: 8px;
+            box-sizing: content-box;
+        }
+    </style>
+</head>
+    <h2>To Do List</h2>
+    <hr>
+   <form action="" method="post" enctype="multipart/form-data">
+    <label for="item">Item</label>
+    <input type="text" name="Item" id="Item">
+    <br>
+    <label for="Description">Description</label>
+    <textarea name="Description" id="Description" width="20px"></textarea>
+    <br>
+    <label for="Priority">Priority</label>
+    <select name="Priority" id="Priority">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+    </select>
+    <br>
+    <label for="Category">Category</label>
+    <select name="Category" id="Category">
+        <option value="Persional">Persional</option>
+        <option value="Work">Work</option>
+    </select>
+    <br>
+    <label for="Due-date">Due Date</label>
+    <input type="text" name="due-date-mm" id="due-date-mm" placeholder="MM">
+    <input type="text" name="due-date-dd" id="due-date-dd" placeholder="DD">
+    <input type="text" name="due-date-YYY" id="due-date-YYY" placeholder="YYY">
+    <br>
+    <label for="status">Status</label>
+    <input type="checkbox" name="Done" id="Done">Done<label for="Done"></label>
+    <br>
+    <input type="submit" name="submit" id="submit" value="Submit">
+
+   </form>
+</body>
+</html>
